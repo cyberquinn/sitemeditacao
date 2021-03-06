@@ -26,64 +26,53 @@
         <link rel="stylesheet" href="painel/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
         <!--link css-->
 
-
-        <!--inico nav-->
-    <ul class="nav  alert alert-warning">
-        <img src="site/dist/img/iluminese (2).png" alt="imagem" class="right mx-auto d-block"/>
-        <li class="nav-item">
-            <a class="nav-link text-danger" href="#">Início</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-danger" href="#">Sonbre</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-danger" href="#">Contato</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-danger" href="#">Podcast</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-danger" href="#">Outras páginas</a>
-        </li>
-    </ul>
+    </head>
 
 
-</head>
-<body>
-
-    <!--inicio de container-->
-    <div class="container">
-        <!--inicio de row 1-->
-        <div class="row">
-
-            <!--inicio de coll 2-->
-            <div class="col">
-
-
-            </div> 
-            <!--fim de coll 2-->
-
-            <!--fim de row 1-->
-        </div>
-
-
-    </div>
-
-
-</body>
-<!--inicio da footer-->
-<footer class="balert alert-danger m-auto p-5">
-
-    <div class="footer"> 
-
-        <div class="container">
-            <div class="row">
-
-                <p> <small> ©Direitos reservados a LVADeveloper  </small> </p>
+    <body>
+        <!--inicio de container-->
+        <div class="container-fluid ">
+            <!--inicio de row 1-->
+            <div class="row alert-warning">
+                <img src="site/dist/img/iluminese (2).png" alt="" />
+                <ul class="nav justify-content-center m-5 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Ativo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Desativado</a>
+                    </li>
+                </ul>
 
             </div>
+            <div class="row">
+
+                <h1>Só para localizar</h1>
+            </div> 
+
         </div>
-    </div>
-</footer>
+
+
+    </body>
+    <!--inicio da footer-->
+    <footer class="balert alert-danger m-auto p-5">
+
+        <div class="footer"> 
+
+            <div class="container">
+                <div class="row">
+
+                    <p> <small> ©Direitos reservados a LVADeveloper  </small> </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </html>
