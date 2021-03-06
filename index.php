@@ -25,54 +25,46 @@
         <link rel="stylesheet" href="painel/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
         <link rel="stylesheet" href="painel/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
         <!--link css-->
-
     </head>
 
+    <body class="hold-transition sidebar-mini layout-fixed">
+        <div class="wrapper alert-warning">
+            <!--- Preloader -->
+            <div class="row justify-content-center">
+                <img src="site/dist/img/iluminese (2).png" alt="Logo" class="justify-content-center">  
+            </div>
 
-    <body>
-        <!--inicio de container-->
-        <div class="container-fluid ">
-            <!--inicio de row 1-->
-            <div class="row alert-warning">
-                <img src="site/dist/img/iluminese (2).png" alt="" />
-                <ul class="nav justify-content-center m-5 text-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Ativo</a>
+
+            <!-- Navbar -->
+            <nav class="main-header navbar navbar-expand navbar-white navbar-light justify-content-center">
+                <ul class="navbar-nav">
+                    <!-- Left navbar links -->
+
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="?pg=dashboard" class="nav-link pl-5">Início</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="?pg=produtos" class="nav-link">Sobre</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="?pg=sobre" class="nav-link">Contato</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Desativado</a>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="?pg=contato" class="nav-link">Medite</a>
+                    </li>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="?pg=login" class="nav-link">Podcast</a>
+                    </li>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="?pg=inicial" class="nav-link">Outros sites</a>
                     </li>
                 </ul>
-
-            </div>
-            <div class="row">
-
-                <h1>Só para localizar</h1>
-            </div> 
-
-        </div>
-
-
+      
+        </div> 
+        
+        
     </body>
-    <!--inicio da footer-->
-    <footer class="balert alert-danger m-auto p-5">
-
-        <div class="footer"> 
-
-            <div class="container">
-                <div class="row">
-
-                    <p> <small> ©Direitos reservados a LVADeveloper  </small> </p>
-
-                </div>
-            </div>
-        </div>
+    <footer>
+        <strong>LVAdeveloper &copy; 2021</strong> All rights reserved.
     </footer>
-
 </html>
